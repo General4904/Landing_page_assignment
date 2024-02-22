@@ -1,0 +1,102 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(244, 248, 252);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
+
+/* Header Section */
+
+#wrapper{
+    background-color: rgb(230, 240, 248);
+    margin: 0 4em;
+}
+
+header{
+    color: rgb(66, 65, 65);
+    font-size: 20px;
+    margin: 0 1em 3em 1em;
+    padding: 2em 0;
+    display: flex;
+    gap: 5em;
+    justify-content: space-around;
+    align-items: center;
+}
+
+header nav{
+    margin: 0 10em 0 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 1em;
+}
+
+header nav a{
+    color: rgb(80, 78, 78);
+    font-size: 13px;
+}
+
+header #start button{
+    color: blue;
+    padding: 0.6em 2em;
+    border: 1px solid blue;
+    border-radius: 3px;    
+    background-color: rgb(230, 240, 248);
+
+}
+
+
+/* Mid Section */
+#mid-section{
+    margin: 0 0 5em 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1em;
+}
+
+#mid-section p, footer p{
+    font-size: 12px;
+    color: rgb(105, 103, 103);
+}
+
+#mid-section p#subscribe{
+    display: flex;
+    gap: 1em;
+}
+
+#mid-section p#subscribe input{
+    height: 3em;
+    width: 15em;
+    padding: 0 1em;
+    border-radius: 3px;
+}
+
+#mid-section p#subscribe input#mail{
+    border: none;
+}
+
+#mid-section p#subscribe input#item{
+    border: none;
+    color: rgb(230, 240, 248);
+    background-color: orangered;
+}
+
+/* Footer Section */
+footer{
+    margin: 0 1em 3em 1em;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 1em;
+}
